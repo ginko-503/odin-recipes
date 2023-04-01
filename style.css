@@ -2,8 +2,36 @@ ul {
     background-color: aquamarine;
     margin: 16px auto;
     padding: 8px;
+    border: 1px;
+    width: 200px;
 }
 
 li {
+    display: block;
     margin: 8px auto;
+}
+
+h1 {
+    margin: 16px auto;
+    width: 200px;
+}
+
+.lasagna {
+    background-image: url("./img/lasagna.jpg");
+}
+
+.casserole {
+    background-image: url("./img/casserole.jpg");
+}
+
+.chicken {
+    background-image: url("./img/chicken.jpg");
+}
+
+a {
+    background-size: cover;
+    display: block;
+    border: 1px;
+    padding: 25px;
+    margin: 5px;
 }
